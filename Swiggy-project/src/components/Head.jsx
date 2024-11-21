@@ -94,6 +94,7 @@ function Head() {
                         ></i>
                         <input
                             type="text"
+                            placeholder="Search By City"
                             className="border p-5 focus:outline-none focus:shadow-lg"
                             onChange={(e) => searchResultFun(e.target.value)}
                         />
